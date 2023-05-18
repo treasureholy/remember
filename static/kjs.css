@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+
+* {
+    font-family: 'Gowun Dodum', sans-serif;
+}
+
+body {
+    background-image: url("./background1.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1400px;
+
+    width: 1000px;
+    height: 800px;
+    position: relative;
+    /* overflow: hidden; */
+
+}
+
+
+.div:nth-child(1) {
+    position: absolute;
+    top: 280px;
+    left: 200px;
+}
+
+.div:nth-child(1) img {
+    max-width: 220px;
+    height: auto;
+    transition: all 0.1s linear;
+    cursor: pointer;
+}
+
+/* 마우스 갖다대면 사이즈 커짐 */
+.div:nth-child(1):hover img {
+    transform: scale(1.1);
+}
+
+.div:nth-child(2) {
+    position: absolute;
+    top: 420px;
+    left: 440px;
+}
+
+.div:nth-child(2) img {
+    max-width: 180px;
+    height: auto;
+    transition: all 0.1s linear;
+    cursor: pointer;
+}
+
+.div:nth-child(2):hover img {
+    transform: scale(1.1);
+}
+
+.div:nth-child(3) {
+    position: absolute;
+    top: 320px;
+    left: 620px;
+}
+
+.div:nth-child(3) img {
+    max-width: 200px;
+    height: auto;
+    transition: all 0.1s linear;
+    cursor: pointer;
+}
+
+.div:nth-child(3):hover img {
+    transform: scale(1.1);
+}
+
+.div:nth-child(4) {
+    position: absolute;
+    top: 420px;
+    left: 820px;
+}
+
+.div:nth-child(4) img {
+    max-width: 200px;
+    height: auto;
+    transition: all 0.1s linear;
+    cursor: pointer;
+}
+
+.div:nth-child(4):hover img {
+    transform: scale(1.1);
+}
+
+.div:nth-child(5) {
+    position: absolute;
+    top: 200px;
+    left: 1020px;
+}
+
+.div:nth-child(5) img {
+    max-width: 240px;
+    height: auto;
+    transition: all 0.1s linear;
+    cursor: pointer;
+}
+
+.div:nth-child(5):hover img {
+    transform: scale(1.1);
+}
+
+.modal {
+    display: none;
+    /* 모달 기본적으로 숨김 */
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* 배경을 어둡게 표시 */
+}
+
+.modal-content {
+    /* position: relative; */
+    background-color: white;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 1000px;
+    height: 70%;
+}
+
+.modal-info {
+    display: flex;
+    text-align: left;
+    width: 300px;
+    height: 300px;
+}
+
+.modal-info img {
+    width: 300px;
+    height: 300px;
+    margin-right: 20px;
+}
+
+.modal-text {
+    /* flex: 1 0 700px; */
+    font-size: 20px;
+    width: 500px;
+}
+
+.mypost{
+    display: flex;
+    width: fit-content;
+}
+
+.text-1 {
+    width: 80px;
+}
+.text-2 {
+    width: 350px;
+}
+
+
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* .close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+} */
