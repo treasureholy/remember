@@ -27,13 +27,13 @@ body {
 .div:nth-child(1) img {
     max-width: 220px;
     height: auto;
-    transition: all 0.1s linear;
     cursor: pointer;
 }
 
 /* 마우스 갖다대면 사이즈 커짐 */
 .div:nth-child(1):hover img {
     transform: scale(1.1);
+    transition: all 0.1s linear;
 }
 
 .div:nth-child(2) {
@@ -45,12 +45,12 @@ body {
 .div:nth-child(2) img {
     max-width: 180px;
     height: auto;
-    transition: all 0.1s linear;
     cursor: pointer;
 }
 
 .div:nth-child(2):hover img {
     transform: scale(1.1);
+    transition: all 0.1s linear;
 }
 
 .div:nth-child(3) {
@@ -62,12 +62,12 @@ body {
 .div:nth-child(3) img {
     max-width: 200px;
     height: auto;
-    transition: all 0.1s linear;
     cursor: pointer;
 }
 
 .div:nth-child(3):hover img {
     transform: scale(1.1);
+    transition: all 0.1s linear;
 }
 
 .div:nth-child(4) {
@@ -79,12 +79,12 @@ body {
 .div:nth-child(4) img {
     max-width: 200px;
     height: auto;
-    transition: all 0.1s linear;
     cursor: pointer;
 }
 
 .div:nth-child(4):hover img {
     transform: scale(1.1);
+    transition: all 0.1s linear;
 }
 
 .div:nth-child(5) {
@@ -96,12 +96,12 @@ body {
 .div:nth-child(5) img {
     max-width: 240px;
     height: auto;
-    transition: all 0.1s linear;
     cursor: pointer;
 }
 
 .div:nth-child(5):hover img {
     transform: scale(1.1);
+    transition: all 0.1s linear;
 }
 
 .modal {
