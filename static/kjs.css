@@ -17,89 +17,89 @@ body {
 
 }
 
-
-.div:nth-child(1) {
-    position: absolute;
-    top: 280px;
-    left: 200px;
+.main1{
+    position: relative;
+    top: 220px;
+    left: 220px; 
 }
 
-.div:nth-child(1) img {
-    max-width: 220px;
+.main1 img{
+    width: 220px;
     height: auto;
     cursor: pointer;
 }
 
 /* 마우스 갖다대면 사이즈 커짐 */
-.div:nth-child(1):hover img {
+.main1:hover img {
     transform: scale(1.1);
     transition: all 0.1s linear;
 }
 
-.div:nth-child(2) {
-    position: absolute;
-    top: 420px;
-    left: 440px;
+
+.main2{
+    position: relative;
+    bottom: 30px;
+    left: 450px;
 }
 
-.div:nth-child(2) img {
+.main2 img{
     max-width: 180px;
     height: auto;
     cursor: pointer;
 }
 
-.div:nth-child(2):hover img {
+.main2:hover img {
     transform: scale(1.1);
     transition: all 0.1s linear;
 }
 
-.div:nth-child(3) {
+.main3 {
     position: absolute;
-    top: 320px;
-    left: 620px;
+    top: 330px;
+    left: 630px;
 }
 
-.div:nth-child(3) img {
+.main3 img {
     max-width: 200px;
     height: auto;
     cursor: pointer;
 }
 
-.div:nth-child(3):hover img {
+.main3:hover img {
     transform: scale(1.1);
     transition: all 0.1s linear;
 }
 
-.div:nth-child(4) {
+.main4 {
     position: absolute;
-    top: 420px;
-    left: 820px;
+    top: 410px;
+    left: 840px;
 }
 
-.div:nth-child(4) img {
+.main4 img {
     max-width: 200px;
     height: auto;
     cursor: pointer;
 }
 
-.div:nth-child(4):hover img {
+.main4:hover img {
     transform: scale(1.1);
     transition: all 0.1s linear;
 }
 
-.div:nth-child(5) {
+.main5 {
     position: absolute;
     top: 200px;
-    left: 1020px;
+    left: 1050px;
 }
 
-.div:nth-child(5) img {
+.main5 img {
     max-width: 240px;
     height: auto;
     cursor: pointer;
 }
 
-.div:nth-child(5):hover img {
+.main5:hover img {
     transform: scale(1.1);
     transition: all 0.1s linear;
 }
@@ -108,12 +108,15 @@ body {
     display: none;
     /* 모달 기본적으로 숨김 */
     position: fixed;
+    /* padding-bottom: 200px; */
     z-index: 1;
-    left: 0;
-    top: 0;
     width: 100%;
     height: 100%;
-    overflow: auto;
+    /* 더 큰 z-index 값을 가진 요소가 작은 값의 요소 위를 덮습니다 */
+    /* left: 0;
+    top: 0; */
+
+    /* overflow: hidden; */
     background-color: rgba(0, 0, 0, 0.5);
     /* 배경을 어둡게 표시 */
 }
@@ -121,11 +124,12 @@ body {
 .modal-content {
     /* position: relative; */
     background-color: white;
-    margin: 15% auto;
-    padding: 20px;
+    margin: 110px auto;
+    padding: 10px;
     border: 1px solid #888;
-    width: 1000px;
-    height: 70%;
+    border-radius:10px;
+    width: 800px;
+    height: 500px;
 }
 
 .modal-info {
@@ -136,8 +140,8 @@ body {
 }
 
 .modal-info img {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     margin-right: 20px;
 }
 
@@ -147,17 +151,19 @@ body {
     width: 500px;
 }
 
-.mypost{
+.mypost {
     display: flex;
-    width: fit-content;
+    width: 800px;
 }
 
 .text-1 {
     width: 80px;
 }
+
 .text-2 {
     width: 350px;
 }
+
 
 
 
